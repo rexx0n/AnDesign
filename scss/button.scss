@@ -1,0 +1,18 @@
+.button-red {
+  color: #FFF;
+  padding: 19px 53px;
+  background: #F00;
+  border: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  &:hover {
+    background: #b70909;
+  }
+  &:active {
+    background: #a10f0f;
+  }
+}
