@@ -5,10 +5,23 @@
 @import 'main';
 @import 'button';
 @import 'cards';
+@import 'advertisement';
+@import 'black-bg';
+@import 'price';
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
+}
+h1 {
+  font-size: 50px;
+  color: #FFF;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 88.567%;
+  span {
+    color: #F00;
+  }
 }

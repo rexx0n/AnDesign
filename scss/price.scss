@@ -1,0 +1,33 @@
+.price {
+  background: url("../imgs/bg.png") no-repeat right center;
+  padding-top: 309px;
+  padding-bottom: 230px;
+  &__card {
+    padding: 50px 48px 71px 66px;
+    background: #FFF8F8;
+    box-shadow: 0 26px 76px 0 rgba(12, 22, 36, 0.16);
+    max-width: 660px;
+    h2 {
+      color: #000;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 137.187%;
+      span {
+        color: #F00;
+      }
+    }
+    p {
+      color: #3A3A3A;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 183.911%; /* 29.426px */
+      margin-top: 22px;
+      margin-bottom: 28px;
+      span {
+        color: #000;
+      }
+    }
+  }
+}

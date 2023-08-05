@@ -1,0 +1,89 @@
+.advertisement {
+  padding-top: 111px;
+  padding-bottom: 137px;
+  button {
+    display: flex;
+    margin: 99px auto auto;
+  }
+  &__cards {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+  }
+
+  &__card {
+    max-width: 359px;
+
+    div:last-child {
+      margin-bottom: 10px; //почему не работает
+    }
+    div {
+      display: flex;
+      align-items: center;
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      color: #FFF8F8;
+      max-width: 221px;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 88.567%;
+    }
+
+    p {
+      color: #FFF8F8;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 178.567%; /* 32.142px */
+    }
+  }
+  &__list {
+    margin-top: 30px;
+    ol {
+      list-style-type: none;
+    }
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      p {
+        padding-left: 58px;
+      }
+      &:last-child {
+        p {
+          padding-left: 98px;
+        }
+      }
+    }
+    span {
+      color: #FFF8F8;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 88.567%; /* 22.142px */
+      & span {
+        color: #F00;
+        text-align: center;
+        font-size: 55.641px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        padding-right: 21px;
+      }
+    }
+    p {
+      max-width: 592px;
+      color: #FFF8F8;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 158.567%; /* 28.542px */
+    }
+  }
+  &__guarantors {
+    margin-top:129px;
+  }
+}
