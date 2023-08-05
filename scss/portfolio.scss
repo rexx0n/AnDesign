@@ -1,0 +1,67 @@
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 123px;
+  &__btn {
+    display: flex;
+    margin-top: 53px;
+    margin-left: 902px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    border: 1px solid #FFF;
+    background: #000000;
+    padding: 19px 53px;
+    cursor: pointer;
+    &:hover {
+      background: #ffffff29;
+    }
+    &:active {
+      background: #ffffff47;
+    }
+  }
+  h1 {
+    padding-bottom: 58px;
+  }
+  &__cards {
+      display: flex;
+    flex-wrap: wrap;
+    column-gap: 22px;
+    row-gap: 25px;
+  }
+  &__logo {
+    margin-bottom: 25px;
+    display: flex;
+    gap: 18px;
+  }
+  &__card {
+  max-width: 582px;
+    width: 100%;
+    &:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+    &--1 {
+      background: url("../imgs/bg-card.png");
+      padding: 28px 56px 179px;
+    }
+    p {
+      color: #FFF;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%; /* 27.2px */
+      max-width: 356px;
+    }
+    h3 {
+      color: #FAFAFA;
+      font-size: 22.775px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 130%; /* 29.607px */
+    }
+  }
+}
