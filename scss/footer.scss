@@ -1,0 +1,61 @@
+ .footer {
+  display: flex;
+  align-items: center;
+   justify-content: space-between;
+   padding-top: 61px;
+   padding-bottom: 41px;
+  &__logo {
+   span {
+    color: #fff;
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    span {
+     color: #ff0000;
+    }
+   }
+   p {
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+   }
+  }
+   &__icons {
+     display: flex;
+     gap: 35px;
+   }
+  nav {
+   display: flex;
+   gap: 80px;
+    a {
+      color: #FFF;
+      font-family: "Tenor Sans", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+      text-decoration: none;
+      &:hover {
+        color: #ff0000;
+        border-bottom: 1px dashed #ff0000;
+      }
+    }
+  }
+ }
+ footer {
+   padding-bottom: 57px;
+   p {
+     color: #FFF;
+     text-align: center;
+     font-family: 'Tenor Sans', sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     text-transform: capitalize;
+   }
+ }

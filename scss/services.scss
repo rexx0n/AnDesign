@@ -1,0 +1,54 @@
+.services {
+  margin-top:107px;
+  margin-bottom: 137px;
+  h1 {
+    color: #000;
+  }
+  &__info {
+    margin-top: 83px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  &__list {
+    ul {
+      margin-bottom: 50px;
+    }
+    &--1 {
+      margin-right: 101px;
+      margin-left: 137px;
+    }
+    &--2 {
+      margin-left: 106px;
+      margin-right: 99px;
+    }
+  }
+  h3 {
+    color: #000;
+    font-size: 38.622px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 27px;
+    max-width: 334px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  li {
+    padding-left: 18px;
+    color: #3A3A3A;
+    list-style-type: circle;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    &::marker {
+      content: url("../imgs/list-marker.png");
+      color: #b70909;
+      background: #b70909;
+    }
+  }
+}
