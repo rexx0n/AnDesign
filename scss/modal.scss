@@ -1,0 +1,30 @@
+.modal {
+  &--none {
+    display: none;
+  }
+  background: rgba(17, 16, 16, 0.90);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  &__info {
+    max-width: 980px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 100%;
+    background: #fff;
+    margin: 186px auto auto;
+    padding:24px 18px 228px 106px;
+    h2 {
+      margin-top: 165px;
+      text-align: center;
+      max-width: 773px;
+      color: #000;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 130%; /* 45.5px */
+    }
+  }
+}
