@@ -4,6 +4,8 @@ let btnsNext = document.querySelectorAll('.computation__questions  .button-red')
 let questions = document.querySelectorAll('.computation__question')
 let paragraphs = document.querySelectorAll('.computation > p')
 let modal = document.querySelector('.modal')
+let modalMain = document.querySelector('.modal--main')
+let btnWorkProgress = document.querySelector('.work-progress .button-red')
 let count = 0
 btnsNext.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -21,4 +23,10 @@ btnsNext.forEach(btn => {
             questions[count].classList.remove('computation__question--none')
         }
     })
+})
+btnWorkProgress.addEventListener('click', ()=> {
+    modalMain.classList.remove('modal--none')
+})
+modalMain.querySelector('svg').addEventListener('click', ()=>{
+    modalMain.classList.add('modal--none')
 })

@@ -7,6 +7,9 @@
   //animation-name: slidein;
   &__card {
     max-width: 379px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: #FFF8F8;
     padding: 50px 50px 64px 41px;
     span {

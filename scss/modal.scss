@@ -2,6 +2,51 @@
   &--none {
     display: none;
   }
+  &--main {
+    .modal__info {
+      max-width: 778px;
+      flex-direction: column;
+      align-items: center;
+      padding: 25px 0 130px;
+      svg {
+        margin-left: 700px;
+      }
+      h2 {
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 147.187%; /* 66.234px */
+        margin-top: 30px;
+      }
+      p {
+        color: #3A3A3A;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%; /* 28.8px */
+        margin-top: 28px;
+        margin-bottom: 57px;
+        max-width: 395px;
+        span {
+          color: #000;
+          font-weight: 700;
+        }
+      }
+      input {
+        border: none;
+        border-bottom: 1px solid #000;
+        font-size: 18px;
+        padding: 10px 0 8px;
+        margin-bottom: 98px;
+        max-width: 331px;
+        width: 100%;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 147.187%; /* 26.494px */
+      }
+    }
+  }
   background: rgba(17, 16, 16, 0.90);
   position: fixed;
   width: 100%;
