@@ -1,0 +1,27 @@
+.privacy {
+  margin-top: 81px;
+  margin-bottom: 99px;
+  h1 {
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88.567%; /* 44.283px */
+    margin-bottom: 39px;
+  }
+  ol {
+    list-style: none;
+    counter-reset: li;
+  }
+  li:before {
+    counter-increment: li;
+    content: counters(li,".") ". ";
+  }
+   li {
+     color: #000;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 157.187%; /* 22.006px */
+   }
+}
