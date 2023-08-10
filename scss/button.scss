@@ -16,3 +16,8 @@
     background: #a10f0f;
   }
 }
+@media screen and (max-width: 768px) {
+  .button-red {
+    padding: 15px 50px;
+  }
+}

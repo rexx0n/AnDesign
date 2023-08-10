@@ -3,10 +3,16 @@ header {
   padding-top: 17px;
   padding-bottom: 19px;
 }
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  &__burger {
+    display: none;
+  }
+
   &__logo {
     span {
       color: #fff;
@@ -15,10 +21,12 @@ header {
       font-style: normal;
       font-weight: 400;
       line-height: normal;
+
       span {
         color: #ff0000;
       }
     }
+
     p {
       color: #fff;
       font-size: 15px;
@@ -26,9 +34,11 @@ header {
       font-weight: 400;
     }
   }
+
   nav {
     display: flex;
     gap: 37px;
+
     a {
       color: #fff;
       font-family: "Tenor Sans", sans-serif;
@@ -36,12 +46,14 @@ header {
       font-style: normal;
       font-weight: 400;
       text-decoration: none;
+
       &:hover {
         color: #ff0000;
         border-bottom: 1px dashed #ff0000;
       }
     }
   }
+
   &__phone {
     display: flex;
     gap: 9px;
@@ -50,14 +62,61 @@ header {
     font-style: normal;
     font-weight: 600;
   }
+
   a {
     color: #fff;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
     &:hover {
       opacity: 0.8;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    > a {
+      display: none;
+    }
+    &__burger-content {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      align-items: center;
+      padding-top: 27px;
+      padding-bottom: 85px;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(1, 1, 1, 0.95);;
+      svg {
+        margin-left: 187px;
+      }
+      nav {
+        margin-top: 35px;
+        flex-direction: column;
+        a {
+          color: #FFF;
+          font-family: 'Tenor Sans', 'sans-serif';
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-transform: uppercase;
+        }
+      }
+    }
+    &__none {
+      display: none;
+    }
+    &__burger {
+      display: flex;
+    }
+    > nav {
+      display: none;
     }
   }
 }

@@ -58,3 +58,41 @@
     margin-bottom: 40px;
   }
 }
+@media screen and (max-width: 768px) {
+  .work-progress {
+    margin-bottom: 90px;
+    button {
+      padding: 15px 50px;
+      margin-top: 63px;
+    }
+    &__card {
+      &--2 {
+        img {
+          margin-top: -18px;
+        }
+      }
+      &--1 {
+        img {
+          margin-top: -37px;
+        }
+      }
+      &--3 {
+        img {
+          margin-top: -26px;
+        }
+      }
+      img {
+        max-width: 274px;
+      }
+    }
+    h2 {
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      span {
+        font-size: 91.791px;
+      }
+    }
+  }
+}

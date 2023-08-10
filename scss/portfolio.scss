@@ -65,3 +65,31 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .portfolio {
+    padding-bottom: 79px;
+    padding-top: 83px;
+    &__btn {
+      margin: 42px auto 0;
+    }
+    &__logo {
+      display: none;
+    }
+    p {
+      display: none;
+    }
+    &__cards {
+      column-gap: 15px;
+      row-gap: 19px;
+    }
+    &__card {
+      max-width: 340px;
+      &--1 {
+        background: url("../imgs/bg-portfolio.png") no-repeat;
+      }
+      img {
+        max-width: 340px;
+      }
+    }
+  }
+}

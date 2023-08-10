@@ -10,7 +10,6 @@
     margin-top: 70px;
     justify-content: space-between;
   }
-
   &__card {
     max-width: 359px;
 
@@ -85,5 +84,41 @@
   }
   &__guarantors {
     margin-top:129px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .advertisement {
+    &__cards {
+      flex-wrap: wrap;
+      row-gap: 35px;
+    }
+    &__guarantors{
+      margin-top: 105px;
+    }
+    &__list {
+      p {
+        font-size: 16px;
+      }
+      span {
+        display: flex;
+        align-items: center;
+        span {
+          font-size: 55.641px;
+          padding-right: 17px;
+        }
+      }
+    }
+    &__card {
+      max-width: 319px;
+      div {
+        margin-bottom: 22px;
+      }
+      p {
+        font-size: 16px;
+      }
+      h2 {
+        font-size: 30px;
+      }
+    }
   }
 }
