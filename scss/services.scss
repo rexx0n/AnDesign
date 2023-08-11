@@ -52,3 +52,20 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+.services {
+  &__list {
+    &--1 {
+      margin: 0;
+    }
+    &--2 {
+      margin: 0;
+    }
+  }
+  &__info {
+    img {
+      max-width: 350px;
+    }
+  }
+}
+}
