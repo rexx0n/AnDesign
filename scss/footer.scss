@@ -59,3 +59,15 @@
      text-transform: capitalize;
    }
  }
+ @media screen and (max-width: 768px) {
+   .footer {
+     padding-top: 41px;
+     padding-bottom: 24px;
+     nav {
+       gap: 15px;
+       a {
+         font-size: 13px;
+       }
+     }
+   }
+ }

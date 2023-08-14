@@ -49,3 +49,17 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .facilities {
+    &__info {
+      img {
+        max-width: 583px;
+      }
+    }
+    &__order {
+      input {
+        max-width: 188px;
+      }
+    }
+  }
+}

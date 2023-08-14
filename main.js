@@ -24,6 +24,7 @@ btnsNext.forEach(btn => {
         }
     })
 })
+//modal
 btnWorkProgress.addEventListener('click', ()=> {
     modalMain.classList.remove('modal--none')
 })
@@ -31,13 +32,3 @@ modalMain.querySelector('svg').addEventListener('click', ()=>{
     modalMain.classList.add('modal--none')
 })
 //burger
-let burger = document.querySelector('.header__burger')
-burger.querySelector('svg').addEventListener('click', ()=> {
-    burger.querySelector('svg').classList.add('header__none')
-    burger.querySelector('.header__burger-content').classList.remove('header__none')
-})
-burger.querySelector('.header__burger-content svg').addEventListener('click', ()=> {
-    console.log( burger.querySelector('svg'))
-    burger.querySelector('svg').classList.remove('header__none')
-    burger.querySelector('.header__burger-content').classList.add('header__none')
-})

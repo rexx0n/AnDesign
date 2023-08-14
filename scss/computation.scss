@@ -140,3 +140,27 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .computation {
+    &__question {
+      padding: 30px 11px 41px 9px;
+      h2 {
+        font-size: 22px;
+      }
+      span {
+        font-size: 14.528px;
+        span {
+          font-size: 9.843px;
+        }
+      }
+    }
+    &__answers {
+      row-gap: 26px;
+      column-gap: 9px;
+    }
+    &__answer {
+      padding:15px 19px 14px 14px;
+      max-width: 330px;
+    }
+  }
+}
