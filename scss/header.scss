@@ -122,3 +122,21 @@ header {
     }
   }
 }
+@media screen and (max-width: 320px) {
+  .header {
+    &__phone {
+      font-size: 18px;
+      svg {
+        display: none;
+      }
+    }
+    &__logo {
+      span {
+        font-size: 14px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+  }
+}

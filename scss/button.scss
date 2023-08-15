@@ -21,3 +21,10 @@
     padding: 15px 50px;
   }
 }
+@media screen and (max-width: 320px) {
+  .button-red {
+    padding: 15px 45px;
+    font-size: 15px;
+    margin: auto;
+  }
+}

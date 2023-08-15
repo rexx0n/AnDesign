@@ -122,3 +122,53 @@
     }
   }
 }
+@media screen and (max-width: 320px) {
+  .advertisement {
+    padding-top: 61px;
+    padding-bottom: 103px;
+    button {
+      margin-top: 50px;
+    }
+    &__list {
+      span {
+        font-size: 24px;
+        span {
+          font-size: 45px;
+        }
+      }
+      li {
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        &:last-child {
+          p {
+            padding: 0;
+          }
+        }
+        p {
+          padding: 0;
+        }
+      }
+    }
+    &__guarantors {
+      margin-top: 81px;
+    }
+    h1 {
+      font-size: 33px;
+    }
+    &__cards {
+      margin-top: 33px;
+      row-gap: 30px;
+    }
+    &__card {
+      h2 {
+        font-size: 28px;
+      }
+      p {
+        font-size: 14px;
+      }
+      div {
+        margin-bottom: 7px;
+      }
+    }
+  }
+}

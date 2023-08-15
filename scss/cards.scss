@@ -80,3 +80,26 @@
     }
   }
 }
+@media screen and (max-width: 320px) {
+  .cards {
+    margin-top: 15px;
+    margin-bottom: 33px;
+    &__card {
+      max-width: 295px;
+      padding: 45px 21px 52px 19px;
+      &--last {
+        display: none;
+      }
+      span {
+        font-size: 38.918px;
+      }
+      p {
+        font-size: 16px;
+      }
+      button {
+        font-size: 16px;
+        padding: 15px 60px;
+      }
+    }
+  }
+}
