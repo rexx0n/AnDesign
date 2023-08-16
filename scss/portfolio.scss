@@ -93,3 +93,16 @@
     }
   }
 }
+@media screen and (max-width: 320px) {
+  .portfolio {
+    &__card {
+      img {
+        max-width: 295px;
+      }
+    }
+    &__btn {
+      font-size: 15px;
+      padding: 15px 50px;
+    }
+  }
+}

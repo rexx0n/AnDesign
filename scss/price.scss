@@ -38,3 +38,16 @@
     background-position-y:35px;
   }
 }
+@media screen and (max-width: 320px) {
+  .price {
+    &__card {
+      padding: 23px 10px 53px 10px;
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
