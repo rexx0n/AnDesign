@@ -1,6 +1,7 @@
 .facilities {
   margin-top: 81px;
   margin-bottom: 255px;
+
   &__info {
     h1 {
       font-size: 50px;
@@ -9,6 +10,7 @@
       line-height: 88.567%; /* 44.283px */
       color: #000;
     }
+
     p {
       margin-top: 37px;
       margin-bottom: 37px;
@@ -20,8 +22,10 @@
       line-height: 170%; /* 27.2px */
     }
   }
+
   &__order {
     margin-top: 97px;
+
     h3 {
       color: #000;
       font-size: 25px;
@@ -29,17 +33,19 @@
       font-weight: 600;
       line-height: 188.567%; /* 47.142px */
     }
+
     form {
       margin-top: 38px;
       display: flex;
       justify-content: space-between;
       max-width: 867px;
     }
+
     input {
       color: #000;
       max-width: 275px;
       width: 100%;
-      font-family: 'Roboto','sans-serif';
+      font-family: 'Roboto', 'sans-serif';
       font-size: 16px;
       font-style: normal;
       font-weight: 300;
@@ -49,6 +55,7 @@
     }
   }
 }
+
 @media screen and (max-width: 768px) {
   .facilities {
     &__info {
@@ -56,9 +63,45 @@
         max-width: 583px;
       }
     }
+
     &__order {
       input {
         max-width: 188px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .facilities {
+    margin-top: 60px;
+    margin-bottom: 93px;
+    &__info {
+      h1 {
+        font-size: 25px;
+      }
+      p {
+        font-size: 15px;
+        margin-top: 16px;
+        margin-bottom: 25px;
+      }
+      img {
+        max-width: 295px;
+      }
+    }
+    &__order {
+      margin-top: 45px;
+      h3 {
+        font-size: 18px;
+        text-align: center;
+      }
+      form {
+        flex-direction: column;
+        align-items: center;
+        gap: 37px;
+        input {
+          padding-bottom: 7px;
+        }
       }
     }
   }

@@ -71,3 +71,24 @@
      }
    }
  }
+ @media screen and (max-width: 320px) {
+ .footer {
+   padding-top: 52px;
+   padding-bottom: 60px;
+   flex-direction: column;
+     nav {
+       display: none;
+   }
+   &__logo {
+     margin-bottom: 46px;
+     span {
+       span {
+         color: white;
+       }
+     }
+     p {
+       margin-top:10px;
+     }
+   }
+ }
+ }

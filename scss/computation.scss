@@ -164,3 +164,36 @@
     }
   }
 }
+@media screen and (max-width: 320px) {
+  .computation{
+    margin-top: 45px;
+    &__question {
+      margin-bottom: 63px;
+      margin-top: 38px;
+      h2 {
+        text-align: left;
+      }
+    }
+    &__get {
+      h2 {
+        font-size: 16px;
+        text-align: center;
+      }
+      button{
+        padding: 19px 40px;
+        font-size: 14px;
+      }
+    }
+    &__answers {
+      row-gap: 16px;
+      margin-bottom: 36px;
+    }
+    &__answer {
+      padding: 18px 0 18px 12px;
+      gap: 8px;
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
