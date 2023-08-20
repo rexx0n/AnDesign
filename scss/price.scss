@@ -31,14 +31,14 @@
     }
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1253px) {
   .price {
     padding-top: 483px;
     padding-bottom: 82px;
     background-position-y:35px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 615px) {
   .price {
     &__card {
       padding: 23px 10px 53px 10px;

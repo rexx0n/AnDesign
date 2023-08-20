@@ -62,7 +62,7 @@
 //    margin-left: 0;
 //  }
 //}
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1253px) {
   .cards {
     flex-wrap: wrap;
     &__card {
@@ -80,7 +80,7 @@
     }
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 615px) {
   .cards {
     margin-top: 15px;
     margin-bottom: 33px;
