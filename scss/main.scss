@@ -1,11 +1,11 @@
 .main {
-  background: #000000 url("../imgs/photo.png") no-repeat right;
+  background: var(--secondary-color)000 url("../imgs/photo.png") no-repeat right;
   &__info {
     max-width: 625px;
     padding-top: 160px;
     padding-bottom: 226px;
     h1 {
-      color: #FFF;
+      color: var(--primaty-color);
       font-size: 60px;
       font-style: normal;
       font-weight: 700;
@@ -16,8 +16,8 @@
       }
     }
     p {
-      color: #FFF;
-      font-size: 18px;
+      color: var(--primaty-color);
+      font-size: var(--font-size-18);
       font-style: normal;
       font-weight: 400;
       line-height: 160%;
@@ -33,7 +33,7 @@
       margin-bottom: 54px;
     }
     p {
-      font-size: 16px;
+      font-size: var(--font-size-16);
       margin-bottom: 66px;
       max-width: 440px;
     }
@@ -50,7 +50,7 @@
       margin-bottom: 21px;
     }
     p {
-      font-size: 16px;
+      font-size: var(--font-size-16);
       margin-bottom: 48px;
     }
   }

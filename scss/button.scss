@@ -1,9 +1,9 @@
 .button-red {
-  color: #FFF;
+  color: var(--primaty-color);
   padding: 19px 53px;
   background: #F00;
   border: none;
-  font-size: 16px;
+  font-size: var(--font-size-16);
   font-style: normal;
   font-weight: 500;
   line-height: normal;

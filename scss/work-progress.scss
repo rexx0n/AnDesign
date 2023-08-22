@@ -37,7 +37,7 @@
     justify-content: space-between;
   }
   h2 {
-    color: #000;
+    color: var(--secondary-color);
     font-size: 35.912px;
     font-style: normal;
     font-weight: 700;
@@ -114,7 +114,7 @@
       }
     }
     h2 {
-      font-size: 16px;
+      font-size: var(--font-size-16);
       span {
         font-size: 65px;
       }

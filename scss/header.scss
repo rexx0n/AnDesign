@@ -17,9 +17,9 @@ header {
 
   &__logo {
     span {
-      color: #fff;
+      color: var(--primaty-color);
       font-family: "Tenor Sans", sans-serif;
-      font-size: 25px;
+      font-size: var(--font-size-25);
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -30,7 +30,7 @@ header {
     }
 
     p {
-      color: #fff;
+      color: var(--primaty-color);
       font-size: 15px;
       font-style: normal;
       font-weight: 400;
@@ -42,7 +42,7 @@ header {
     gap: 37px;
 
     a {
-      color: #fff;
+      color: var(--primaty-color);
       font-family: "Tenor Sans", sans-serif;
       font-size: 15px;
       font-style: normal;
@@ -59,14 +59,14 @@ header {
   &__phone {
     display: flex;
     gap: 9px;
-    color: #fff;
+    color: var(--primaty-color);
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
   }
 
   a {
-    color: #fff;
+    color: var(--primaty-color);
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -101,7 +101,7 @@ header {
         margin-top: 35px;
         flex-direction: column;
         a {
-          color: #FFF;
+          color: var(--primaty-color);
           font-family: 'Tenor Sans', 'sans-serif';
           font-size: 15px;
           font-style: normal;
@@ -125,7 +125,7 @@ header {
 @media screen and (max-width: 615px) {
   .header {
     &__phone {
-      font-size: 18px;
+      font-size: var(--font-size-18);
       svg {
         display: none;
       }

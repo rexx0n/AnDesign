@@ -2,8 +2,8 @@
   padding-top: 93px;
   padding-bottom:140px;
   p {
-    color: #FFF;
-    font-size: 25px;
+    color: var(--primaty-color);
+    font-size: var(--font-size-25);
     font-style: normal;
     font-weight: 500;
     line-height: 33.943px; /* 135.771% */
@@ -17,11 +17,11 @@
   }
   textarea {
     background: none;
-    border: 1.212px solid #FFF;
+    border: 1.212px solid var(--primaty-color);
     color: rgba(255, 255, 255, 0.50);
     font-family: 'Roboto', sans-serif;
     padding: 18px 20px;
-    font-size: 18px;
+    font-size: var(--font-size-18);
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -41,7 +41,7 @@
     border-bottom: 1px solid #FFFEFE;
     color: rgba(255, 250, 250, 0.50);
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: var(--font-size-18);
     font-style: normal;
     font-weight: 300;
     line-height: normal;

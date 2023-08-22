@@ -6,9 +6,9 @@
    padding-bottom: 41px;
   &__logo {
    span {
-    color: #fff;
+    color: var(--primaty-color);
     font-family: "Tenor Sans", sans-serif;
-    font-size: 25px;
+    font-size: var(--font-size-25);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -17,7 +17,7 @@
     }
    }
    p {
-    color: #fff;
+    color: var(--primaty-color);
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -31,9 +31,9 @@
    display: flex;
    gap: 80px;
     a {
-      color: #FFF;
+      color: var(--primaty-color);
       font-family: "Tenor Sans", sans-serif;
-      font-size: 16px;
+      font-size: var(--font-size-16);
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -49,10 +49,10 @@
  footer {
    padding-bottom: 57px;
    p {
-     color: #FFF;
+     color: var(--primaty-color);
      text-align: center;
      font-family: 'Tenor Sans', sans-serif;
-     font-size: 16px;
+     font-size: var(--font-size-16);
      font-style: normal;
      font-weight: 400;
      line-height: normal;

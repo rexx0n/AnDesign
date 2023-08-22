@@ -5,15 +5,15 @@
     display: flex;
     margin-top: 53px;
     margin-left: 902px;
-    color: #FFF;
-    font-size: 16px;
+    color: var(--primaty-color);
+    font-size: var(--font-size-16);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.8px;
     text-transform: uppercase;
-    border: 1px solid #FFF;
-    background: #000000;
+    border: 1px solid var(--primaty-color);
+    background: var(--secondary-color)000;
     padding: 19px 53px;
     cursor: pointer;
     &:hover {
@@ -49,8 +49,8 @@
       padding: 28px 56px 179px;
     }
     p {
-      color: #FFF;
-      font-size: 16px;
+      color: var(--primaty-color);
+      font-size: var(--font-size-16);
       font-style: normal;
       font-weight: 400;
       line-height: 170%; /* 27.2px */

@@ -1,13 +1,13 @@
 .computation {
   margin-top: 76px;
   &__input {
-    color: #000;
-    font-size: 16px;
+    color: var(--secondary-color);
+    font-size: var(--font-size-16);
     font-style: normal;
     font-weight: 600;
     line-height: 147.187%;
     border: none;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid var(--secondary-color);
     background: none;
     max-width: 375px;
     width:100% ;
@@ -26,8 +26,8 @@
     left: 0;
     width: 29.641px;
     height: 29.641px;
-    background-color: #fff;
-    border: 0.847px solid #000;
+    background-color: var(--primaty-color);
+    border: 0.847px solid var(--secondary-color);
     &:after {
       content: "";
       position: absolute;
@@ -71,7 +71,7 @@
     }
   }
   h1 {
-    color: #000;
+    color: var(--secondary-color);
     margin-bottom: 27px;
   }
   &__answer {
@@ -83,8 +83,8 @@
     gap: 20px;
     p{
       text-align: left;
-      color:  #3A3A3A;
-      font-size: 16px;
+      color:  var(--3A3A3A-color);
+      font-size: var(--font-size-16);
       font-style: normal;
       font-weight: 400;
       line-height: 137.188%; /* 21.95px */
@@ -109,14 +109,14 @@
       display: none;
     }
     h2 {
-      color: #000;
+      color: var(--secondary-color);
       font-size: 35px;
       font-style: normal;
       font-weight: 700;
       line-height: 147.187%; /* 51.516px */
     }
     span {
-      color:  #3A3A3A;
+      color:  var(--3A3A3A-color);
       font-family: 'Tenor Sans', 'sans-serif';
       font-size: 20px;
       font-style: normal;
@@ -128,14 +128,14 @@
     }
   }
   > p {
-    color: #3A3A3A;
-    font-size: 16px;
+    color: var(--3A3A3A-color);
+    font-size: var(--font-size-16);
     max-width: 699px;
     font-style: normal;
     font-weight: 400;
     line-height: 180%; /* 28.8px */
     span {
-      color: #000;
+      color: var(--secondary-color);
       font-weight: 600;
     }
   }
@@ -176,7 +176,7 @@
     }
     &__get {
       h2 {
-        font-size: 16px;
+        font-size: var(--font-size-16);
         text-align: center;
       }
       button{
